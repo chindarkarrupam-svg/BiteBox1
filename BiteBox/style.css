@@ -313,4 +313,64 @@ tr{
     margin-top: 15px;
     font-size: 14px;
 }
-    
+
+.deals-page{
+    padding: 40px;
+    background-color: red;
+}
+.deal-hero{
+    background-color: black;
+    color:white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.deal-hero p{
+    font-size: 10px;
+
+}
+.deal-hero h1{
+    font-size: 40px;
+}
+.combo-section{
+    padding: 40px;
+    background:red ;
+
+}
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.combo-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.combo-card{
+    background: rgb(209, 199, 199);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 10px;
+}
+.combo-card button{
+    background-color: red;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+.combo-card button:hover{
+    background: darkred;
+}
+
+.combo-card:hover{
+    transform: translateY(-8px);
+}
+
